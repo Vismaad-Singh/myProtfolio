@@ -1,0 +1,350 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Comfortaa", cursive;
+  font-family: "Martian Mono", monospace;
+  scroll-behavior: smooth;
+  background-color: #464646;
+}
+
+/* body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* THIS IS FOR NAVBAR */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(2 2 2);
+  margin: 0px auto;
+  
+  display: flex;
+  justify-content: center;
+  width: auto;
+  flex-wrap: wrap;
+}
+
+.topnav a {
+  float: left;
+  color: #ff0000;
+  background-color: rgb(2 2 2);
+  /* border: 1px solid red; */
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+
+  text-align: center;
+  padding: 10px 33px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 15px;
+}
+
+.topnav a:hover {
+  background-color: rgb(157, 255, 0);
+  color: #646c6b;
+}
+/* 
+.topnav a.active {
+  background-color: #56718a;
+  color: white;
+} */
+
+/* THIS IS FOR image */
+/* #img {
+  background-image: url("/desk.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  opacity: 0.7;
+  background-position: center;
+  max-width: 100%;
+}
+@media screen and (max-width: 450px) {
+  #img {
+    background-image: none;
+    background-color: rgb(51, 51, 42);
+    width: 100%;
+  }
+} */
+#myimg{
+  margin-top: 0.2rem;
+}
+/* 
+img {
+  background-image: url("/desktop.jpg");
+  background-size: cover;
+  width: 100%;
+  opacity: 0.8;
+  align-self: center;
+  width: 100%;
+  background-repeat: no-repeat;
+} */
+
+.main-div {
+  color: rgb(211, 201, 201);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  /* margin: 4rem; */
+}
+
+.main-div h2 {
+  color: rgb(157, 255, 0);
+  font-size: 4rem;
+  margin-top: 4rem;
+}
+.main-div h3 {
+  color: rgb(157, 255, 0);
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.main-div a {
+  padding: 15px;
+  margin-top: 1.5rem;
+  background-color: rgb(157, 255, 0);
+  color: rgb(0, 0, 0);
+  border: 1px rgb(157, 255, 0)  solid;
+  border-radius: 20px;
+  font-weight: 1000;
+  opacity: 0.85;
+  text-decoration: none;
+}
+.main-div a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  padding: 1.3rem;
+  border: 1px solid red;
+}
+
+@media screen and (max-width: 550px) {
+  .main-div h2 {
+    /* font-weight: unset;
+    float: left; */
+    font-size: 2rem;
+    margin-top: 3rem;
+    font-weight: bold;
+    color: rgb(61, 210, 41);
+    text-align: center;
+  }
+  .main-div h3 {
+   
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    color: rgb(61, 210, 41);
+    text-align: center;
+  }
+  .main-div a {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    background-color: rgb(244, 255, 98);
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+}
+.grid-article {
+  margin: 0.5rem;
+  display: grid;
+  gap: 0.8rem;
+
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-col-span-2 {
+  grid-column: span 2;
+}
+.grid-row-span-2 {
+  grid-row: span 2;
+}
+/* .card {
+  background-color: rgb(255, 229, 143);
+ box-shadow: 4px 4px rgb(255, 94, 66); 
+  
+} */
+#card1 {
+  background-color: #9e9e9e;
+}
+#card1:hover {
+  color: rgb(6, 3, 3);
+  box-shadow: 4px 4px green;
+  margin: 0.3rem;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 0, 0);
+}
+#card2 {
+  background-color: rgba(222, 253, 255, 0.655);
+}
+#card2 b{
+  background-color: transparent;
+  /* justify-content: center; */
+}
+#card2:hover {
+  color: rgb(6, 3, 3);
+  box-shadow: 4px 4px green;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  margin: 0.3rem;
+  background-color: rgb(255, 0, 0);
+}
+
+#card3 {
+  background-color: rgb(255, 195, 195);
+}
+#card3:hover {
+  color: rgb(6, 3, 3);
+  box-shadow: 4px 4px green;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  margin: 0.3rem;
+  background-color: rgb(255, 0, 0);
+}
+
+#card4 {
+  /* background-color: rgb(250, 154, 245);
+   */
+   /* max-height: 100px; */
+   z-index: 1;
+}
+#card4:hover {
+  color: rgb(6, 3, 3);
+  /* box-shadow: 4px 4px green; */
+  padding: 0.6rem;
+  /* border-radius: 0.5rem; */
+  margin: 0.3rem;
+  /* background-color: rgb(7, 5, 5); */
+}
+/* 
+.article {
+  border: 2px solid red;
+} */
+/* .article:hover{
+  color: rgb(15, 0, 103);
+  background-color: black;
+} */
+#before-form-start {
+  margin-top: 5rem;
+  text-align: center;
+  font-weight: 800;
+  font-size: 20px;
+}
+form {
+  text-align: center;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  justify-content: center;
+}
+@media screen and (max-width: 550px) {
+  #before-form-start {
+    width: 80%;
+    margin: 2% 3%;
+  }
+
+  .grid-article {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 1% 10% 0% 10%;
+  }
+  .parent {
+    align-items: flex-start;
+  }
+  .center {
+    float: left;
+    width: 100%;
+  }
+  #Email {
+    float: left;
+    width: 100%;
+  }
+  .form1 {
+    width: 100%;
+  }
+  .btn2 {
+    width: 45%;
+    font-size: 0.3rem;
+  }
+}
+
+input {
+  border: 1px solid green;
+  width: 25rem;
+}
+
+.parent {
+  /* border:1px solid pink; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  /* border:1px solid black; */
+  width: 38%;
+  text-align: left;
+}
+.form1 {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.btn2 {
+  padding: 0.5rem;
+  font-size: 20px;
+  margin: 0.5rem;
+  border-radius: 15px;
+}
+.btn2:hover {
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  box-shadow: 4px 4px green;
+}
+#before-contact-me {
+  color: rgb(45, 0, 90);
+  margin: 0.5rem 1rem;
+  font-size: 2rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* align-content: center; */
+}
+.contact {
+  /* border: 10px solid red; */
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0.5rem 2rem;
+  padding: 2rem;
+}
+.contact-me {
+  color: rgb(0, 57, 70);
+
+  /* border: 10px red; */
+}
+
+/* 
+.banner-image{
+  background-image: url("/desktop.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  height: 430px;
+}
+.info-text{
+  color: #fff;
+} */
